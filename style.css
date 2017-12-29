@@ -1,0 +1,58 @@
+body{
+	background-color:black;
+}
+#container{
+	background: url('EarthArt-801502.jpg');
+	width:1200px;
+	height:800px;
+}
+#hero{
+	background: url('1942.gif');
+	background-position: -85px -180px;
+	width:28px;
+	height:28px;
+	position:absolute;
+}
+.enemy1{
+	background: url('1942.gif');
+	background-position: -30px -10px;
+	width:28px;
+	height:28px;
+	position:absolute;
+	/* border: 1px solid red; */
+}
+
+.enemy2{
+	background: url('1942.gif');
+	background-position: -60px -90px;
+	width:28px;
+	height:28px;
+	position:absolute;
+	/* border: 1px solid red; */
+}
+
+
+.bullet{
+	background: url('1942.gif');
+	background-position: -183px -400px;
+	width:18px;
+	height:18px;
+	position:absolute;
+	/* border: 1px solid red; */
+}
+#score{
+	position:absolute;
+	border:10px solid red;
+	top:20px;
+	left: 1100px;
+	background-color:white;
+	padding:10px;
+	font-size:30px;
+	font-family: Arial;
+}
+/* .indicators {
+	position: absolute;
+	border: 1px solid black;
+	width:6px;
+	height:6px;
+} */
