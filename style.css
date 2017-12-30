@@ -9,7 +9,7 @@ body{
 #hero{
 	background: url('1942.gif');
 	background-position: -85px -180px;
-	width:28px;
+	width:26px;
 	height:28px;
 	position:absolute;
 }
@@ -19,40 +19,46 @@ body{
 	width:28px;
 	height:28px;
 	position:absolute;
-	/* border: 1px solid red; */
 }
 
 .enemy2{
 	background: url('1942.gif');
 	background-position: -60px -90px;
-	width:28px;
-	height:28px;
+	width:12px;
+	height:14px;
 	position:absolute;
-	/* border: 1px solid red; */
 }
 
+.enemyExplode {
+	background: url('1942.gif');
+	background-position: -110px -30px;
+	width:30px;
+	height:30px;
+	position:absolute;
+}
 
 .bullet{
 	background: url('1942.gif');
-	background-position: -183px -400px;
+	background-position: -184px -400px;
 	width:18px;
 	height:18px;
 	position:absolute;
-	/* border: 1px solid red; */
 }
+
 #score{
 	position:absolute;
 	border:10px solid red;
 	top:20px;
-	left: 1100px;
+	left: 1000px;
 	background-color:white;
 	padding:10px;
 	font-size:30px;
 	font-family: Arial;
 }
-/* .indicators {
+.indicators {
 	position: absolute;
 	border: 1px solid black;
-	width:6px;
-	height:6px;
-} */
+	background-color: red;
+	width:3px;
+	height:3px;
+}
